@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vaibhav S | Portfolio</title>
+  <link rel="stylesheet" href="vaibhav-portfolio.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">Vaibhav S</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact">Contact</a>
+      <button id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+    </nav>
+  </header>
+  <section class="hero">
+    <div class="profile-image">
+      <img src="https://media.licdn.com/dms/image/v2/D5603AQGxedTquo40_Q/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1698765203345?e=1753920000&v=beta&t=_SJFg4LDSgStRPd_xBxvxq6A7G8Ep5rstyk2sSyD4jU" alt="Vaibhav S - Profile Picture">
+    </div>
+    <h1>Vaibhav S</h1>
+    <h2>Aspiring Computer Science Engineer</h2>
+    <h3>8105747528</h3><br>
+    <h3><a href="https://www.google.com/maps/place/Mangalore,+Karnataka" target="_blank" class="contact-link">📌 Mangalore, Karnataka, India</a></h3>
+    <h3>Email: <a href="mailto:vaibhavsu24@gmail.com" class="contact-link">vaibhavsu24@gmail.com</a></h3><br>
+    
+    <a href="https://www.linkedin.com/in/vaibhavology/" target="_blank" class="social-link">LinkedIn Profile</a>
+    <!-- <p>Former Technician at Foxconn India | Ex- Boschler</p> -->
+
+
+  </section>
+  <section id="about" class="about">
+    <h3>About Me</h3>
+    <p>I'm a young and energetic professional with strong analytical and problem-solving skills. With a foundation in electronics and a growing passion for computer science, I'm always eager to learn new technologies and apply them to create innovative, real-world solutions.</p>
+  </section>
+  <section id="projects" class="projects">
+    <h3>Projects</h3>
+    <ul>
+      <li><strong>Project Veyron</strong> – Advanced Vehicle and Driver Security System.</li>
+      <li><strong>Smart Ignition System</strong> – Smart vehcile Ignition system.</li>
+    </ul>
+  </section>
+  <section id="skills" class="skills">
+    <h3>Skills</h3>
+    <ul>
+      <li>Arduino IDE</li>
+      <li>Embeded Systems</li>
+      <li>FMEA Analysis</li>
+      <li>Electronics System Designer</li>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ul>
+  </section>
+  <section id="resume" class="resume">
+    <h3>Resume</h3>
+    <a href="#" class="resume-btn" download>Download CV</a>
+  </section>
+  <section id="contact" class="contact">
+    <h3>Contact</h3>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <div class="socials">
+      <a href="https://www.youtube.com/" target="_blank" aria-label="YouTube">YouTube</a>
+      <a href="https://www.linkedin.com/" target="_blank" aria-label="LinkedIn">LinkedIn</a>
+    </div>
+  </section>
+  <footer>
+    <p>&copy; 2024 Vaibhav S. All rights reserved.</p>
+  </footer>
+  <script>
+    // Dark mode toggle
+    const toggle = document.getElementById('theme-toggle');
+    toggle.addEventListener('click', () => {
+      document.body.classList.toggle('dark');
+      toggle.textContent = document.body.classList.contains('dark') ? '☀️' : '🌙';
+    });
+  </script>
+</body>
+</html> 
